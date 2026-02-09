@@ -1,6 +1,5 @@
 {
   "version": 3,
   "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/James/Programs/trAI/trainAI/app/page.js"],"sourcesContent":["import { usestate } from \"react\";\n\nconst [input, setInput] = usestate(\"\");\nconst [output, setOutput] = usestate(\"\");\n\nonSubmit = () => {\n  setOutput(input);\n}\n\nexport default function home(){\n  return (\n    <div>\n      <input type=\"text\" className=\"bg-amber-200 w-full mt-10\"\n      onChange={(e) => setInput(e.target.value)}>\n      </input>\n      <button className=\"bg-amber-400 w-full mt-5\" onClick={onSubmit}>\n        Submit\n      </button>\n      <div className=\"bg-amber-300 w-full mt-5\">\n        <p className=\"text-2xl text-center\">\n          {output}\n        </p>\n      </div>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,CAAC,OAAO,SAAS,GAAG,IAAA,iNAAQ,EAAC;AACnC,MAAM,CAAC,QAAQ,UAAU,GAAG,IAAA,iNAAQ,EAAC;AAErC,WAAW;IACT,UAAU;AACZ;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;gBAAM,MAAK;gBAAO,WAAU;gBAC7B,UAAU,CAAC,IAAM,SAAS,EAAE,MAAM,CAAC,KAAK;;;;;;0BAExC,8OAAC;gBAAO,WAAU;gBAA2B,SAAS;0BAAU;;;;;;0BAGhE,8OAAC;gBAAI,WAAU;0BACb,cAAA,8OAAC;oBAAE,WAAU;8BACV;;;;;;;;;;;;;;;;;AAKX"}}]
+  "sections": []
 }

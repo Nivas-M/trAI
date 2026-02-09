@@ -16,12 +16,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Home() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "83e57da4a36a4a8801ba06f99555ddaca521f996eb8fcad1d4a4242b7b6abb00") {
-        for(let $i = 0; $i < 14; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
+    if ($[0] !== "0b8d08519833c9d9158006835d8e1eedb0acfec67807da90a16bff36d6b95627") {
+        for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "83e57da4a36a4a8801ba06f99555ddaca521f996eb8fcad1d4a4242b7b6abb00";
+        $[0] = "0b8d08519833c9d9158006835d8e1eedb0acfec67807da90a16bff36d6b95627";
     }
     const [input, setInput] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     let t0;
@@ -58,13 +58,16 @@ function Home() {
     const onSubmit = t1;
     let t2;
     if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-            type: "text",
-            className: "bg-amber-200 w-full mt-10",
-            onChange: {
-                "Home[<input>.onChange]": (e)=>setInput(e.target.value)
-            }["Home[<input>.onChange]"],
-            placeholder: "Describe your journey..."
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "text-3xl font-bold text-gray-900 flex bg-amber-200 w-full",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                className: "bg-amber-500 w-fit py-3 px-6 rounded-xl",
+                children: "trAI"
+            }, void 0, false, {
+                fileName: "[project]/app/page.js",
+                lineNumber: 48,
+                columnNumber: 85
+            }, this)
         }, void 0, false, {
             fileName: "[project]/app/page.js",
             lineNumber: 48,
@@ -75,105 +78,140 @@ function Home() {
         t2 = $[4];
     }
     let t3;
-    if ($[5] !== onSubmit) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            className: "bg-amber-400 w-full mt-5",
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "text",
+            className: "border border-gray-300 rounded w-full p-3 mb-4 focus:outline-none focus:border-blue-500",
+            onChange: {
+                "Home[<input>.onChange]": (e)=>setInput(e.target.value)
+            }["Home[<input>.onChange]"],
+            placeholder: "Describe your journey..."
+        }, void 0, false, {
+            fileName: "[project]/app/page.js",
+            lineNumber: 55,
+            columnNumber: 10
+        }, this);
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    let t4;
+    if ($[6] !== onSubmit) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            className: "bg-blue-600 text-white w-full p-3 rounded font-medium hover:bg-blue-700 transition",
             onClick: onSubmit,
             children: "Submit"
         }, void 0, false, {
             fileName: "[project]/app/page.js",
-            lineNumber: 57,
+            lineNumber: 64,
             columnNumber: 10
         }, this);
-        $[5] = onSubmit;
-        $[6] = t3;
+        $[6] = onSubmit;
+        $[7] = t4;
     } else {
-        t3 = $[6];
-    }
-    let t4;
-    if ($[7] !== result) {
-        t4 = result.map(_HomeResultMap);
-        $[7] = result;
-        $[8] = t4;
-    } else {
-        t4 = $[8];
+        t4 = $[7];
     }
     let t5;
-    if ($[9] !== t4) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-amber-300 w-full mt-5",
-            children: t4
+    if ($[8] !== result) {
+        t5 = result.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mt-8 space-y-3",
+            children: result.map(_HomeResultMap)
         }, void 0, false, {
             fileName: "[project]/app/page.js",
-            lineNumber: 73,
-            columnNumber: 10
+            lineNumber: 72,
+            columnNumber: 31
         }, this);
-        $[9] = t4;
-        $[10] = t5;
+        $[8] = result;
+        $[9] = t5;
     } else {
-        t5 = $[10];
+        t5 = $[9];
     }
     let t6;
-    if ($[11] !== t3 || $[12] !== t5) {
+    if ($[10] !== t4 || $[11] !== t5) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "p-8 h-screen flex flex-col items-center",
             children: [
                 t2,
-                t3,
-                t5
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "bg-amber-100 max-w-[70%] w-full mt-10 p-6 rounded-lg shadow",
+                    children: [
+                        t3,
+                        t4,
+                        t5
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 80,
+                    columnNumber: 71
+                }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/page.js",
-            lineNumber: 81,
+            lineNumber: 80,
             columnNumber: 10
         }, this);
-        $[11] = t3;
-        $[12] = t5;
-        $[13] = t6;
+        $[10] = t4;
+        $[11] = t5;
+        $[12] = t6;
     } else {
-        t6 = $[13];
+        t6 = $[12];
     }
     return t6;
 }
 _s(Home, "s7SWeESsKVyyhLBSOI8Hc6s8Eb8=");
 _c = Home;
-function _HomeResultMap(item, index) {
+function _HomeResultMap(journey, index) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "p-2 border-b",
+        className: "border rounded-lg p-4 mb-4 bg-white shadow-sm",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                children: [
-                    "Train: ",
-                    item.train
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                className: "text-lg font-semibold",
+                children: journey.train
+            }, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 91,
-                columnNumber: 52
+                lineNumber: 90,
+                columnNumber: 85
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "text-sm text-gray-600 mt-1 flex gap-3",
                 children: [
-                    "Time: ",
-                    item.time
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: [
+                            journey.durationHours,
+                            " hrs"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.js",
+                        lineNumber: 90,
+                        columnNumber: 198
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: [
+                            "₹",
+                            journey.price
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.js",
+                        lineNumber: 90,
+                        columnNumber: 238
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: journey.comfort
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.js",
+                        lineNumber: 90,
+                        columnNumber: 267
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 91,
-                columnNumber: 78
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                children: [
-                    "Status: ",
-                    item.status
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/page.js",
-                lineNumber: 91,
-                columnNumber: 102
+                lineNumber: 90,
+                columnNumber: 143
             }, this)
         ]
     }, index, true, {
         fileName: "[project]/app/page.js",
-        lineNumber: 91,
+        lineNumber: 90,
         columnNumber: 10
     }, this);
 }
