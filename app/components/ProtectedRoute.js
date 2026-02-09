@@ -16,10 +16,13 @@ export default function ProtectedRoute({ children }) {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-amber-50">
-        <div className="text-amber-600 text-lg font-medium animate-pulse">
-          Loading...
+      <div className="min-h-screen flex flex-col items-center justify-center bg-[#0a0a0f] gap-3" role="status" aria-live="polite">
+        <div className="flex gap-1.5">
+          <span className="w-2.5 h-2.5 bg-indigo-500 rounded-full animate-bounce [animation-delay:0ms]" />
+          <span className="w-2.5 h-2.5 bg-indigo-500 rounded-full animate-bounce [animation-delay:150ms]" />
+          <span className="w-2.5 h-2.5 bg-indigo-500 rounded-full animate-bounce [animation-delay:300ms]" />
         </div>
+        <span className="text-zinc-500 text-sm">Loading...</span>
       </div>
     );
   }
