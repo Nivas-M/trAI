@@ -1,14 +1,14 @@
-# 🚆 trAI - AI-Powered Train Journey Planner
+# trAI - AI-Powered Train Journey Planner
 
 **trAI** is an intelligent train journey planning application for Indian Railways that leverages Google Gemini AI to provide personalized train recommendations. The app helps travelers find the best train options based on their preferences, whether they prioritize speed, cost, comfort, or reliability, and intelligently suggests connecting routes when direct options aren't available.
 
-## 🔗 Live Demo
+## Live Demo
 
 **Visit the live application:** [https://tr-ai-phi.vercel.app/](https://tr-ai-phi.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Next.js 16.1.6** - React framework with App Router
@@ -39,7 +39,7 @@
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -118,7 +118,7 @@ npm start
 
 ---
 
-## 🏗️ High-Level Architecture
+## High-Level Architecture
 
 ```mermaid
 graph TD
@@ -190,7 +190,7 @@ graph TD
 
 ---
 
-## 🤖 AI Usage Summary (Gemini Role)
+## AI Usage Summary (Gemini Role)
 
 ### What AI Features Are Implemented
 
@@ -273,31 +273,31 @@ The AI ranks Shatabdi Express first because the user prioritized speed ("somethi
 
 ### Benefits of AI Integration
 
-✅ **Natural Language Processing**: Users can ask questions conversationally, no need for structured queries  
-✅ **Context-Aware Recommendations**: AI understands implicit preferences and refines based on feedback  
-✅ **Intelligent Route Planning**: Automatically suggests connecting routes with optimal layovers  
-✅ **Personalized Results**: Rankings adapt to individual priorities (speed, cost, reliability)  
-✅ **Graceful Degradation**: Falls back to full train list if AI temporarily unavailable  
-✅ **Error Recovery**: Auto-repairs malformed JSON responses from AI  
+- **Natural Language Processing**: Users can ask questions conversationally, no need for structured queries  
+- **Context-Aware Recommendations**: AI understands implicit preferences and refines based on feedback  
+- **Intelligent Route Planning**: Automatically suggests connecting routes with optimal layovers  
+- **Personalized Results**: Rankings adapt to individual priorities (speed, cost, reliability)  
+- **Graceful Degradation**: Falls back to full train list if AI temporarily unavailable  
+- **Error Recovery**: Auto-repairs malformed JSON responses from AI  
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **User Authentication** - Secure login/signup with email or Google
-- 🤖 **AI-Powered Search** - Natural language train queries
-- 🎯 **Smart Recommendations** - AI ranks trains by your preferences
-- 🔄 **Connecting Routes** - Multi-leg journeys with layover suggestions
-- 💾 **Save Journeys** - Bookmark favorite trips to your dashboard
-- 📱 **Responsive Design** - Works seamlessly on mobile and desktop
-- ⚡ **Real-Time Results** - Instant search with loading states
-- 🛡️ **Protected Routes** - Secure dashboard access for authenticated users
-- 🌙 **Dark Mode UI** - Modern, eye-friendly interface
-- 📊 **Journey Details** - Comprehensive train info (timings, prices, comfort, reliability)
+- **User Authentication** - Secure login/signup with email or Google
+- **AI-Powered Search** - Natural language train queries
+- **Smart Recommendations** - AI ranks trains by your preferences
+- **Connecting Routes** - Multi-leg journeys with layover suggestions
+- **Save Journeys** - Bookmark favorite trips to your dashboard
+- **Responsive Design** - Works seamlessly on mobile and desktop
+- **Real-Time Results** - Instant search with loading states
+- **Protected Routes** - Secure dashboard access for authenticated users
+- **Dark Mode UI** - Modern, eye-friendly interface
+- **Journey Details** - Comprehensive train info (timings, prices, comfort, reliability)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 trAI/
@@ -332,23 +332,23 @@ trAI/
 
 ---
 
-## 🔐 Environment Variables Reference
+## Environment Variables Reference
 
 | Variable | Description | Required | Example |
 |----------|-------------|----------|---------|
-| `NEXT_PUBLIC_FIREBASE_API_KEY` | Firebase API key | ✅ | `AIzaSyC...` |
-| `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` | Firebase auth domain | ✅ | `project.firebaseapp.com` |
-| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | Firebase project ID | ✅ | `my-project` |
-| `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` | Firebase storage bucket | ✅ | `project.appspot.com` |
-| `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID | ✅ | `123456789` |
-| `NEXT_PUBLIC_FIREBASE_APP_ID` | Firebase app ID | ✅ | `1:123:web:abc` |
-| `GEMINI_API_KEY` | Google Gemini API key | ✅ | `AIzaSyD...` |
+| `NEXT_PUBLIC_FIREBASE_API_KEY` | Firebase API key | Yes | `AIzaSyC...` |
+| `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` | Firebase auth domain | Yes | `project.firebaseapp.com` |
+| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | Firebase project ID | Yes | `my-project` |
+| `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` | Firebase storage bucket | Yes | `project.appspot.com` |
+| `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID | Yes | `123456789` |
+| `NEXT_PUBLIC_FIREBASE_APP_ID` | Firebase app ID | Yes | `1:123:web:abc` |
+| `GEMINI_API_KEY` | Google Gemini API key | Yes | `AIzaSyD...` |
 
 **Note**: Variables prefixed with `NEXT_PUBLIC_` are exposed to the browser. Keep `GEMINI_API_KEY` private (no prefix).
 
 ---
 
-## 🧪 Available Scripts
+## Available Scripts
 
 ```bash
 # Run development server
@@ -366,7 +366,7 @@ npm run lint
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to improve trAI:
 
@@ -378,13 +378,13 @@ Contributions are welcome! If you'd like to improve trAI:
 
 ---
 
-## 📝 License
+## License
 
 This project is created as a capstone project. All rights reserved.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Nivas M**
 
@@ -393,7 +393,7 @@ This project is created as a capstone project. All rights reserved.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Gemini AI** - For powering intelligent recommendations
 - **Firebase** - For authentication and database services
@@ -403,4 +403,4 @@ This project is created as a capstone project. All rights reserved.
 
 ---
 
-**Built with ❤️ using AI-first principles**
+**Built with passion using AI-first principles**
